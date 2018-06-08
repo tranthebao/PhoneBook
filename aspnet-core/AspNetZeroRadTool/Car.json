@@ -1,0 +1,37 @@
+{
+  "MenuPosition": "main",
+  "RelativeNamespace": "MyCompany",
+  "EntityName": "Car",
+  "EntityNamePlural": "Cars",
+  "TableName": "Car",
+  "PrimaryKeyType": "int",
+  "BaseClass": "Entity",
+  "AutoMigration": true,
+  "UpdateDatabase": true,
+  "CreateUserInterface": true,
+  "PagePermission": {
+    "Host": true,
+    "Tenant": true
+  },
+  "Properties": [
+    {
+      "Name": "dddd",
+      "Type": "string",
+      "MaxLength": 22,
+      "MinLength": 1,
+      "Range": {
+        "IsRangeSet": false,
+        "MinimumValue": 0,
+        "MaximumValue": 0
+      },
+      "Required": false,
+      "Nullable": false,
+      "Regex": "",
+      "UserInterface": {
+        "List": true,
+        "CreateOrUpdate": true
+      }
+    }
+  ],
+  "EnumDefinitions": []
+}
